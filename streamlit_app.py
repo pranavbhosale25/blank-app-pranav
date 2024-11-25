@@ -1,6 +1,9 @@
 import streamlit as st
 
-st.title("🎈 Pranav's new app")
+st.title("🌳 GreenBox Dashboard")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "View the latest data from our GreenBox sites!"
 )
+
+number = st.slider("Pick a number", 0, 100)
+
